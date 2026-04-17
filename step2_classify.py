@@ -4,7 +4,7 @@ from openai import OpenAI
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 client = OpenAI(
-    api_key="sk-38b99775a32c4c48b0a1729ce9edb1cc",
+    api_key="YOUR API Key",
     base_url="https://api.deepseek.com"
 )
 
